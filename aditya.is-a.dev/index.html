@@ -30,7 +30,6 @@
 </head>
 
 <body>
-    <h1 id="count">1</h1>
     <div>
         <h1 id="name">ADITYA</h1>
     </div>
@@ -59,6 +58,7 @@
         if (count > 6) {
             window.clearInterval(nameInterval);
             document.getElementById('name').parentNode.innerHTML = `<sm style="letter-spacing: 10px; position: relative; top: 30%; font-size: 150%;">Attachment</sm><br><h1 style='cursor: pointer;' onclick="action();" id="name">ADITYA</h1>`;
+	    location.href = 'portfolio';
         } else {
             count = count + 1;
         }
