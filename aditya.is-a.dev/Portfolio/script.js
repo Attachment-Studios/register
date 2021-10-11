@@ -180,7 +180,7 @@ function verified() {
     document.getElementById('stuff').innerHTML = `
     <center>
         <h3>Contact</h3>
-        <button onclick="goto('https://discord.gg/A5Z9dZqz8R');">Discord</button>
+        <button onclick="goto('https://discord.gg/tZJUVgNpn2');">Discord</button>
         <button onclick="goto('mailto:aditya.adigo@gmail.com');">Mail</button>
     </center>
     ` + document.getElementById('stuff').innerHTML;
