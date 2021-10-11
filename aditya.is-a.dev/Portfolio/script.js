@@ -166,12 +166,17 @@ function pressedBegButton() {
 }
 
 function pressedVerifyButton() {
-    let ans = prompt('Are You A Random Person?');
-    if (ans.toLowerCase() == "yes") {
-        let newAns = prompt('What Is Generally Your First Step For Learning A Programming Language?');
-        if (newAns.toLowerCase().includes("hello") == true) {
-            verified();
+    if ( true ) {
+        let ans = prompt('Are You A Random Person?');
+        if (ans.toLowerCase() == "yes") {
+            let newAns = prompt('What Is Generally Your First Step For Learning A Programming Language?');
+            if (newAns.toLowerCase().includes("hello") == true) {
+                verified();
+            }
         }
+    } else {
+        alert('You look like a good person. I allow you to get the information :D');
+        verified();
     }
 }
 
