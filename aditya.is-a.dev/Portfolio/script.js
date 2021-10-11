@@ -166,7 +166,7 @@ function pressedBegButton() {
 }
 
 function pressedVerifyButton() {
-    if ( true ) {
+    if ( false ) {
         let ans = prompt('Are You A Random Person?');
         if (ans.toLowerCase() == "yes") {
             let newAns = prompt('What Is Generally Your First Step For Learning A Programming Language?');
